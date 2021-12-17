@@ -1,0 +1,56 @@
+
+h1 {
+    display: none;
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content:baseline;
+    height: 80px;
+    align-items: center;
+
+}
+.logo {
+    font-size: 1.750rem;
+
+}
+.memu {
+    font-size: 1.250rem;
+
+
+}
+.memu a{
+    color: #191919;
+    text-decoration: none;
+    margin:
+    
+}
+@media screen and (max-width: 360px)
+    .wrap{
+        width: 100%;
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+    .logo {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+    .memu {
+        background-color: darkblue;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.250rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .memu a{
+        color: white;
+        text-transform: uppercase;
+        margin: 0 1rem;
+    }
+    
+}
